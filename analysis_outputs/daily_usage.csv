@@ -1,0 +1,15 @@
+member_casual,day_of_week,trips,avg_minutes,day_order
+casual,Monday,258422,19.99,1
+member,Monday,566775,11.94,1
+casual,Tuesday,260417,17.58,2
+member,Tuesday,661016,11.83,2
+casual,Wednesday,257381,16.9,3
+member,Wednesday,644954,11.72,3
+casual,Thursday,272136,17.81,4
+member,Thursday,627321,11.81,4
+casual,Friday,345690,19.66,5
+member,Friday,592974,12.16,5
+casual,Saturday,482249,22.52,6
+member,Saturday,531151,13.53,6
+casual,Sunday,363034,23.32,7
+member,Sunday,430739,13.42,7
