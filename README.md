@@ -42,10 +42,17 @@ The cleaning process included:
 Trips longer than 24 hours were retained in the cleaned dataset but flagged for sensitivity analysis. The main ride-duration comparison excludes these trips.
 
 **SQL scripts:**
+### SQL Scripts
 
-- [Data cleaning](sql/01_data_cleaning.sql)
-- [Data analysis](sql/02_data_analysis.sql)
-- [Data quality checks](sql/03_data_quality_checks.sql)
+Run the scripts in this order:
+
+1. `sql/00_import_data.sql` — Import the 12 monthly CSV files into `trips_raw`.
+2. `sql/01_data_cleaning.sql` — Clean the raw data and create `trips_clean`.
+3. `sql/02_data_analysis.sql` — Run the analysis queries used for the project.
+4. `sql/03_data_quality_checks.sql` — Run data quality checks to validate the results.
+
+**Note:** Update the file paths in `00_import_data.sql` to match your local CSV folder before running it. The import script replaces the existing `trips_raw` table.
+
 
 ## Key Findings
 
