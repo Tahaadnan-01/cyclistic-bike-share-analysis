@@ -72,6 +72,20 @@ Selected CSV outputs are available for further inspection:
 - [Hourly usage](analysis_outputs/hourly_usage.csv)
 - [Monthly usage](analysis_outputs/monthly_usage.csv)
 - [Bike type preference](analysis_outputs/bike_type_preference.csv)
+  
+## Business Recommendations
+
+Based on the observed differences between casual riders and annual members, the following strategies are recommended:
+
+1. **Target weekend riders:** Test membership promotions aimed at casual riders, particularly around Saturday, when casual ridership is highest.
+
+2. **Use behavior-based marketing:** Align campaign timing with the hours and days when casual riders are most active.
+
+3. **Communicate membership value:** Highlight the convenience and potential savings of membership for riders who use the service frequently.
+
+4. **Measure conversion performance:** Evaluate campaigns using membership conversion rates, campaign engagement, and membership sign-ups to identify effective strategies.
+
+These recommendations are hypotheses for testing. Further campaign data would be needed to establish their effectiveness.
 
 ## Tableau Dashboard
 
